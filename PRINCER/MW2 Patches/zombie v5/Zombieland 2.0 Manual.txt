@@ -1,0 +1,126 @@
+Zombieland 2.0 Manual
+---------------------
+
+First and foremost. I'd like everyone to view:    http://www.nextgenupdate.com/forums/showthread.php?p=1825177#post1825177
+These are features you will all be getting for FREE if nobody leaks this patch. Do not send it to ANYONE, because if you do, you're risking never
+getting to play around with all of the fun stuff I have ready for version 3!
+
+
+Basics You will Need to Konw!
+-------------------------------------------------------------------------------------------------------------------------------------------------
+																		|
+																		|
+Controlls																	|
+--------------------------------														|
+																		|
+Changing Menu Pages:																|
+Dpad Up: Next Menu Page																|
+L2: Previous Menu Page																|
+																		|
+THIS IS THE IMPORTANT ONE:															|
+R2 = Toggle Anti-Join																|
+																		|
+																		|
+																		|
+																		|
+Notes about Anti-join Function															|
+------------------------------															|
+																		|
+YOU MUST DISABLE ANTI-JOIN BEFORE LEAVING A GAME												|
+If you do not disable it before you leave a game, then when you start the next round, it will kick everyone					|
+If you forget to turn it off and everyone gets kicked, simply press R2 to turn it on, then R2 again to turn it off				|
+Then re-invite your friends															|
+																		|
+Once you enable nobody can join your session even if invited											|
+Once you disable it anyone can join by any method normally used											|
+																		|
+																		|
+																		|
+																		|
+Known Issues																	|
+------------																	|
+																		|
+Highrise... this should have its own section for Known Issues											|
+1) Most effects such as Uranium Bullets do not visualise here. they work, but you dont see the explosions					|
+2) You Cannot teleport in Highrise. THIS IS NOT MY PATCH. THIS CANNOT BE FIXED. ITS IN THE HIGHRISE CODING vs TELEPORT CODING			|
+3) Roof on Highrise is nearly invincible for humans, very frustrating to be a zombie here							|
+																		|
+																		|
+Skidrow																		|
+1) if you have more than 4 or 5 players, this map is VERY laggy. I will be fixing this issue at a later date					|
+by removing some of the carepackage creations. For now only play skidrow with 4 to 5 players MAX						|
+																		|
+																		|
+Throwing Knives																	|
+1) Sometimes when you use a throwing knife then die immediately, you respawn with another throwing knife. working on fixing this issue		|
+																		|
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Tips Section
+-------------------------------------------------------------------------------------------------------------------------------------------------
+																		|
+How to Nuke those bastards the easy way!													|
+----------------------------------------													|
+First start off by buyinng health once, this will make it so that you have to either get stabbed twice or throwing knifed twice			|
+Second buy unlimited ammo, this will save you lots of money on the path to nukage								|
+Third buy health till you have at least 350. this will help you survive a teleport attack!							|
+Fourth Now it's time to get real with em, buy Uranium Bullets AND DONT SHOOT YOUR FEET								|
+Five buy health untill you have preferably 650 minimum, this will help you survive if you shoot your feet....					|
+Six NUKE THOSE BASTARDS!															|
+																		|
+Great places to Teleport															|
+------------------------															|
+Terminal - Above the Base close to where you spawn. You CAN break the windows and walk on nothing if you want to				|
+Underpass - Behind the fence at the end of the big umm.. drain system thing that the bridges go over						|
+Rust - Anywhere outside of the fence area!													|
+Sub Base - Ontop of the Submarine, the HIGH part on it. Do not teleport to either sub thats on your map, you will be stuck			|
+																		|
+My Favorite Maps to Play															|
+------------------------															|
+Karachi																		|
+Terminal																	|
+Underpass																	|
+Sub Base																	|
+																		|
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Features List *Many are not listed here*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+																		|
+Maps																		|
+----																		|
+All the map edits from 4.0 & 4 new DLC maps! Added a completely new Bunker on Overgrown!							|
+tons of map edit fixes from 4.0															|
+All doors have been reinforced to allow for extended gameplay											|
+																		|
+Core Patch Elements																|
+Updated Anti-join Session System Toggle														|
+FIXED CRASHING PROBLEMS (NO MORE CRASHES, EVER)													|
+Several Balancing fixes																|
+All code completely re-written from scratch													|
+All Perk Hud Elements removed (if you need me to tell you that you bought stopping power, you're an idiot)					|
+																		|
+Humans																		|
+------																		|
+Teleport - $750																	|
+Health - $350																	|
+Uranium Shells - $1337																|
+Sentry Gun - $250																|
+Sniper Rifles - $150 (upgrade from a machine pistol to sniper rifle!)										|
+Unlimited Ammo & No Reloading - $800														|
+Win by Nuking the Zombies! - $3333														|
+Humans can slow down all Zombies for 30 seconds - $250 (this helps you escape when they break a door!)						|
+																		|
+																		|
+Zombies																		|
+-------																		|
+Teleport for zombies - $1000															|
+10 Seconds of Invisibility - $900														|
+Become a Poltergeist until the round is over! - $1000												|
+Semi-Invisibility until the round is over - $800												|
+Slow down all Humans for 30 seconds - $350													|
+Speed up all Zombies for 30 seconds - $400													|
+																		|
+-------------------------------------------------------------------------------------------------------------------------------------------------

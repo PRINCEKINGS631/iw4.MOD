@@ -1,0 +1,7 @@
+This is mine and FerTheWin's latest patch we have been working on, 
+we used dudeeitsbrian's kick and verify menu system, so credits to him!!
+
+ALSO NOTE: Everything in this patch is fully functional, except teleporter!
+
+There is also a few bugs here and there, like when you spawn, you have to disable Aimbot, 
+as it's enabled automatically (fixed this in JiZZx9 v3.0), i will release soon. :p Enjoy!
