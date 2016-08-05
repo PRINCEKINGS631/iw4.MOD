@@ -1,0 +1,412 @@
+<?xml version="1.0"?>
+<!-- syntaxdefinition for GSC 2011 by BuC-ShoTz -->
+
+<SyntaxDefinition name = "GSC" extensions = ".gsc;.atr;.vision;.arena;.cfg;.csc">
+
+  <Properties>
+    <Property name="LineComment" value="//"/>
+  </Properties>
+
+  <Digits name = "Digits" bold = "false" italic = "false" color = "Red"/>
+
+  <RuleSets>
+    <RuleSet ignorecase = "true">
+      <Delimiters>~!%^*()-+=|\#/{}[]:;"'&lt;&gt; , .?</Delimiters>
+
+      <Span name = "PreprocessorDirectives" bold="false" italic="false" color="Blue" stopateol = "true">
+        <Begin>#</Begin>
+      </Span>
+
+      <Span name = "LineComment" bold = "false" italic = "false" color = "DarkOliveGreen" stopateol = "true">
+        <Begin>//</Begin>
+      </Span>
+
+      <Span name = "BlockComment" bold = "false" italic = "false" color = "DarkOliveGreen" stopateol = "false">
+        <Begin>/*</Begin>
+        <End>*/</End>
+      </Span>
+
+      <Span name = "BlockComment" bold = "false" italic = "false" color = "DarkOliveGreen" stopateol = "false">
+        <Begin>/#</Begin>
+        <End>#/</End>
+      </Span>
+
+      <Span name = "String" bold = "false" italic = "false" color = "DimGray" stopateol = "true" escapecharacter="\">
+        <Begin>"</Begin>
+        <End>"</End>
+      </Span>
+
+      <Span name = "Char" bold = "false" italic = "false" color = "Red" stopateol = "true" escapecharacter="\">
+        <Begin>&apos;</Begin>
+        <End>&apos;</End>
+      </Span>
+
+      <!--<MarkPrevious bold = "true" italic = "false" color = "Orange">(</MarkPrevious>-->
+
+      <KeyWords name = "Punctuation" bold = "false" italic = "false" color = "DarkOrange">
+        <Key word = "?" />
+        <Key word = "," />
+        <Key word = "level" />
+        <Key word = "self" />
+        <Key word = "/" />
+        <Key word = "&lt;" />
+        <Key word = "&gt;" />
+		<Key word = ";" />
+      </KeyWords>
+
+      <KeyWords name = "Operatorss" bold = "false" italic = "false" color = "OliveDrab">
+        <Key word = "+" />
+        <Key word = "-" />
+        <Key word = "%" />
+        <Key word = "*" />
+        <Key word = "^" />
+        <Key word = "=" />
+        <Key word = "~" />
+        <Key word = "!" />
+        <Key word = "|" />
+        <Key word = "&amp;" />
+      </KeyWords>
+	  
+	  <KeyWords name = "Weapons" bold = "false" italic = "false" color = "Green">
+        <Key word = "giveWeapon" />
+        <Key word = "switchToWeapon" />
+        <Key word = "setSpawnWeapon" />
+		<Key word = "giveMaxAmmo" />
+		<Key word = "setActionSlot" />
+      </KeyWords>
+
+      <KeyWords name = "Literals" bold="true" italic="false" color="SlateBlue">
+        <Key word = "false" />
+        <Key word = "true" />
+      </KeyWords>
+
+      <KeyWords name = "CFG" bold="true" italic="false" color="Blue">
+		<Key word = "()" />
+        <Key word = "cmdlist" />
+        <Key word = "selectStringTableEntryInDvar" />
+        <Key word = "readStats" />
+        <Key word = "resetViewport" />
+        <Key word = "snd_deactivateEq" />
+        <Key word = "snd_setEqType" />
+        <Key word = "snd_setEqQ" />
+        <Key word = "snd_setEqGain" />
+        <Key word = "snd_setEqFreq" />
+        <Key word = "snd_setEq" />
+        <Key word = "snd_playLocal" />
+        <Key word = "snd_deactivateEnvironmentEffects" />
+        <Key word = "snd_setEnvironmentEffects" />
+        <Key word = "r_smc_flush" />
+        <Key word = "r_smc_stats" />
+        <Key word = "r_savesun" />
+        <Key word = "r_loadsun" />
+        <Key word = "reloadmaterialtextures" />
+        <Key word = "r_applyPicmip" />
+        <Key word = "imagelist" />
+        <Key word = "ragdoll_baselerp_bone" />
+        <Key word = "ragdoll_limit" />
+        <Key word = "ragdoll_joint" />
+        <Key word = "ragdoll_selfpair" />
+        <Key word = "ragdoll_hitloc_mapping" />
+        <Key word = "ragdoll_bone" />
+        <Key word = "ragdoll_clear" />
+        <Key word = "exec" />
+        <Key word = "ragdoll_pin_bone" />
+        <Key word = "splitscreencontrols" />
+        <Key word = "nosplitscreen" />
+        <Key word = "profile_toggleCanSkipOffensiveMissions" />
+        <Key word = "profile_setBlacklevel" />
+        <Key word = "profile_setGamma" />
+        <Key word = "profile_setVolume" />
+        <Key word = "profile_SetHasEverPlayed_MP" />
+        <Key word = "profile_SetHasEverPlayed_SO" />
+        <Key word = "profile_SetHasEverPlayed_SP" />
+        <Key word = "profile_SetHasEverPlayed_MainMenu" />
+        <Key word = "profile_toggleAutoAim" />
+        <Key word = "profile_setSticksConfig" />
+        <Key word = "profile_setButtonsConfig" />
+        <Key word = "profile_setViewSensitivity" />
+        <Key word = "profile_toggleInvertedPitch" />
+        <Key word = "profile_menuDvarsFinish" />
+        <Key word = "profile_menuDvarsSetup" />
+        <Key word = "xcancelconnectingdialog" />
+        <Key word = "xcheckezpatchversion" />
+        <Key word = "xcheckezpatch" />
+        <Key word = "xrequiresignin" />
+        <Key word = "xrequirelivesignin" />
+        <Key word = "xsignin" />
+        <Key word = "xsigninlocal" />
+        <Key word = "xsigninlive" />
+        <Key word = "xshowfriendslist" />
+        <Key word = "upnp" />
+        <Key word = "xplaylistchoosegame" />
+        <Key word = "xtogprivateslots" />
+        <Key word = "xsessionupdate" />
+        <Key word = "confirmInvite" />
+        <Key word = "ping" />
+        <Key word = "globalservers" />
+        <Key word = "say_console" />
+        <Key word = "say_irc" />
+        <Key word = "say" />
+        <Key word = "chatmodeconsole" />
+        <Key word = "chatmodeirc" />
+        <Key word = "printf_test" />
+        <Key word = "connect" />
+        <Key word = "downloadplaylist" />
+        <Key word = "forcevoicefail" />
+        <Key word = "voicefail" />
+        <Key word = "resetStats" />
+        <Key word = "getstructureddatadefsize" />
+        <Key word = "findexternalip" />
+        <Key word = "xpartymigrateafterround" />
+        <Key word = "xpartydisbandafterround" />
+        <Key word = "xupdatepartystate" />
+        <Key word = "xupdatepartymappacks" />
+        <Key word = "xpartyveto" />
+        <Key word = "xpartygo" />
+        <Key word = "tellallclientstorejoin" />
+        <Key word = "migrate" />
+        <Key word = "sendkeepalive" />
+        <Key word = "sendlsp" />
+        <Key word = "xfindlsp" />
+        <Key word = "xmaplspaddr" />
+        <Key word = "connect_lobby" />
+        <Key word = "localvarusage" />
+        <Key word = "closemenu" />
+        <Key word = "localizeSoundAliasFiles" />
+        <Key word = "openScriptMenu" />
+        <Key word = "updateGamerProfile" />
+        <Key word = "cubemapShot" />
+        <Key word = "startSingleplayer" />
+        <Key word = "fs_referencedList" />
+        <Key word = "fs_openedList" />
+        <Key word = "toggleMenu" />
+        <Key word = "showip" />
+        <Key word = "setenv" />
+        <Key word = "logo" />
+        <Key word = "unskippablecinematic" />
+        <Key word = "cinematic" />
+        <Key word = "autocinematic" />
+        <Key word = "demoback" />
+        <Key word = "demoforward" />
+        <Key word = "timedemo" />
+        <Key word = "demo" />
+        <Key word = "stoprecord" />
+        <Key word = "record" />
+        <Key word = "xjoinpasswordparty" />
+        <Key word = "xsearchforgames" />
+        <Key word = "xstopparty" />
+        <Key word = "xstartprivatematch" />
+        <Key word = "xstopprivateparty" />
+        <Key word = "xstartprivateparty" />
+        <Key word = "xstartlobby" />
+        <Key word = "disconnect" />
+        <Key word = "snd_restart" />
+        <Key word = "vid_restart" />
+        <Key word = "clientinfo" />
+        <Key word = "configstrings" />
+        <Key word = "cmd" />
+        <Key word = "-sprint" />
+        <Key word = "+sprint" />
+        <Key word = "-talk" />
+        <Key word = "+talk" />
+        <Key word = "-gostand" />
+        <Key word = "+gostand" />
+        <Key word = "gocrouch" />
+        <Key word = "goprone" />
+        <Key word = "toggleprone" />
+        <Key word = "togglecrouch" />
+        <Key word = "raisestance" />
+        <Key word = "lowerstance" />
+        <Key word = "-toggleads_throw" />
+        <Key word = "+toggleads_throw" />
+        <Key word = "-speed_throw" />
+        <Key word = "+speed_throw" />
+        <Key word = "-throw" />
+        <Key word = "+throw" />
+        <Key word = "leaveads" />
+        <Key word = "toggleads" />
+        <Key word = "-mlook" />
+        <Key word = "+mlook" />
+        <Key word = "-stance" />
+        <Key word = "+stance" />
+        <Key word = "-prone" />
+        <Key word = "+prone" />
+        <Key word = "-usereload" />
+        <Key word = "+usereload" />
+        <Key word = "-reload" />
+        <Key word = "+reload" />
+        <Key word = "-activate" />
+        <Key word = "+activate" />
+        <Key word = "-breath_sprint" />
+        <Key word = "+breath_sprint" />
+        <Key word = "-smoke" />
+        <Key word = "+smoke" />
+        <Key word = "-frag" />
+        <Key word = "+frag" />
+        <Key word = "-melee_breath" />
+        <Key word = "+melee_breath" />
+        <Key word = "-holdbreath" />
+        <Key word = "+holdbreath" />
+        <Key word = "-melee" />
+        <Key word = "+melee" />
+        <Key word = "-attack" />
+        <Key word = "+attack" />
+        <Key word = "-speed" />
+        <Key word = "+speed" />
+        <Key word = "-moveright" />
+        <Key word = "+moveright" />
+        <Key word = "-moveleft" />
+        <Key word = "+moveleft" />
+        <Key word = "-strafe" />
+        <Key word = "+strafe" />
+        <Key word = "-lookdown" />
+        <Key word = "+lookdown" />
+        <Key word = "-lookup" />
+        <Key word = "+lookup" />
+        <Key word = "-back" />
+        <Key word = "+back" />
+        <Key word = "-forward" />
+        <Key word = "+forward" />
+        <Key word = "-right" />
+        <Key word = "+right" />
+        <Key word = "-left" />
+        <Key word = "+left" />
+        <Key word = "-movedown" />
+        <Key word = "+movedown" />
+        <Key word = "-moveup" />
+        <Key word = "+moveup" />
+        <Key word = "centerview" />
+        <Key word = "clear" />
+        <Key word = "chatmodeteam" />
+        <Key word = "chatmodepublic" />
+        <Key word = "connectString" />
+        <Key word = "hostmigration_start" />
+        <Key word = "setPerk" />
+        <Key word = "stringUsage" />
+        <Key word = "dumpHudElems" />
+        <Key word = "dobjList" />
+        <Key word = "scriptUsage" />
+        <Key word = "killserver" />
+        <Key word = "devmap" />
+        <Key word = "gameCompleteStatus" />
+        <Key word = "map_rotate" />
+        <Key word = "map" />
+        <Key word = "fast_restart" />
+        <Key word = "map_restart" />
+        <Key word = "dumpuser" />
+        <Key word = "serverinfo" />
+        <Key word = "status" />
+        <Key word = "dropclientifinactive" />
+        <Key word = "tempBanClient" />
+        <Key word = "tempBanUser" />
+        <Key word = "kick" />
+        <Key word = "clientkick" />
+        <Key word = "onlykick" />
+        <Key word = "heartbeat" />
+        <Key word = "net_dumpprofile" />
+        <Key word = "net_restart" />
+        <Key word = "in_restart" />
+        <Key word = "writedefaults" />
+        <Key word = "writeconfig" />
+        <Key word = "quit" />
+        <Key word = "con_showchannel" />
+        <Key word = "con_hidechannel" />
+        <Key word = "seta" />
+        <Key word = "bind" />
+        <Key word = "unbindall" />
+        <Key word = "set" />
+        <Key word = "uploadStats" />
+        <Key word = "statGetInDvar" />
+        <Key word = "statSet" />
+        <Key word = "statsdownloadcancel" />
+        <Key word = "dumpUnlockedItems" />
+        <Key word = "dumpPlayerData" />
+        <Key word = "getPlayerData" />
+        <Key word = "defaultStatsInit" />
+        <Key word = "setPlayerData" />
+        <Key word = "prestigeReset" />
+        <Key word = "con_visiblechannellist" />
+        <Key word = "con_channellist" />
+        <Key word = "touchFile" />
+        <Key word = "fdir" />
+        <Key word = "dir" />
+        <Key word = "fullpath" />
+        <Key word = "path" />
+        <Key word = "bindlist" />
+        <Key word = "bindaxis" />
+        <Key word = "unbind" />
+        <Key word = "steamlobbyjoinfail" />
+        <Key word = "steamlobbycreatefail" />
+        <Key word = "steam_filelist" />
+        <Key word = "meminfo" />
+        <Key word = "wait" />
+        <Key word = "vstr" />
+        <Key word = "setfromdvar" />
+        <Key word = "dvar_vec3_color" />
+        <Key word = "dvar_vec3" />
+        <Key word = "dvar_float" />
+        <Key word = "dvar_int" />
+        <Key word = "dvar_bool" />
+        <Key word = "dvardump" />
+        <Key word = "dvarlist" />
+        <Key word = "reset" />
+        <Key word = "togglep" />
+        <Key word = "toggle" />
+        <Key word = "unbind2" />
+        <Key word = "bind2" />
+        <Key word = "togglemenu" />
+        <Key word = "+scores" />
+		<Key word = "thread" />
+      </KeyWords>
+
+      <KeyWords name = "CFG_buttons" bold="true" italic="false" color="SlateBlue">
+        <Key word = "BUTTON_A" />
+        <Key word = "BUTTON_B" />
+        <Key word = "BUTTON_X" />
+        <Key word = "BUTTON_Y" />
+        <Key word = "BUTTON_START" />
+        <Key word = "BUTTON_BACK" />
+        <Key word = "BUTTON_RSHLDR" />
+        <Key word = "BUTTON_LSHLDR" />
+        <Key word = "BUTTON_RTRIG" />
+        <Key word = "BUTTON_LTRIG" />
+        <Key word = "BUTTON_RSTICK" />
+        <Key word = "BUTTON_LSTICK" />
+        <Key word = "DPAD_UP" />
+        <Key word = "DPAD_DOWN" />
+        <Key word = "DPAD_LEFT" />
+        <Key word = "DPAD_RIGHT" />
+        <Key word = "A_LSTICK_X" />
+        <Key word = "VA_SIDE" />
+        <Key word = "MAP_SQUARED" />
+        <Key word = "A_LSTICK_Y" />
+        <Key word = "VA_FORWARD" />
+        <Key word = "A_RSTICK_X" />
+        <Key word = "A_RSTICK_Y" />
+        <Key word = "VA_YAW" />
+        <Key word = "VA_PITCH" />
+        <Key word = "MAP_LINEAR" />
+      </KeyWords>
+
+      <KeyWords name = "IterationStatements" bold="true" italic="false" color="SlateBlue">
+        <Key word = "do" />
+        <Key word = "for" />
+        <Key word = "while" />
+      </KeyWords>
+
+      <KeyWords name = "JumpStatements" bold="false" italic="false" color="Blue">
+        <Key word = "break" />
+        <Key word = "continue" />
+        <Key word = "return" />
+      </KeyWords>
+
+      <KeyWords name = "SelectionStatements" bold="true" italic="false" color="SlateBlue">
+        <Key word = "case" />
+        <Key word = "else" />
+        <Key word = "if" />
+        <Key word = "switch" />
+        <Key word = "default" />
+      </KeyWords>
+    </RuleSet>
+  </RuleSets>
+</SyntaxDefinition>

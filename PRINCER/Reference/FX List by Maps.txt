@@ -1,0 +1,540 @@
+///////////////////////////////////////////////////MAPS/////////////////////////////////////////////////////////////////////
+--------------------------------------------------------------------------------------------------------------------
+
+
+
+
+AFGHAN
+
+	level._effect[ "dust_cloud_mp_afghan" ]					= loadfx( "dust/dust_cloud_mp_afghan" );
+	level._effect[ "sand_spray_detail_oriented_runner" ]	= loadfx( "dust/sand_spray_detail_oriented_runner" );
+	level._effect[ "sand_spray_cliff_oriented_runner" ] 	= loadfx( "dust/sand_spray_cliff_oriented_runner" );
+	level._effect[ "room_smoke_200" ] 						= loadfx( "smoke/room_smoke_200" );
+	level._effect[ "room_smoke_400" ] 						= loadfx( "smoke/room_smoke_400" );
+	level._effect[ "drips_fast" ]	 						= loadfx( "misc/drips_fast" );
+	level._effect[ "light_shaft_motes_airport" ]			= loadfx( "dust/light_shaft_motes_airport" );
+	level._effect[ "light_glow_white_bulb" ]			 	= loadfx( "misc/light_glow_white_bulb" );
+
+------------------------------------------------------------------------------
+
+SCRAPYARD
+
+	level._effect[ "tanker_embers" ] 					= loadfx( "fire/tanker_embers" );
+	level._effect[ "firelp_large_pm_nolight" ] 			= loadfx( "fire/firelp_large_pm_nolight" );
+	level._effect[ "firelp_med_pm_nolight" ] 			= loadfx( "fire/firelp_med_pm_nolight" );
+	level._effect[ "firelp_small_pm_a_nolight" ] 		= loadfx( "fire/firelp_small_pm_a_nolight" );
+
+	level._effect[ "dust_wind_fast" ]					 = loadfx( "dust/dust_wind_fast" );
+	level._effect[ "dust_wind_slow" ]					 = loadfx( "dust/dust_wind_slow_yel_loop" );
+	level._effect[ "dust_wind_fast_light" ] 			= loadfx( "dust/dust_wind_fast_light" );
+	level._effect[ "trash_spiral_runner" ] 				= loadfx( "misc/trash_spiral_runner" );
+
+	level._effect[ "sand_spray_detail_oriented_runner" ]	= loadfx( "dust/sand_spray_detail_oriented_runner" );
+	level._effect[ "sand_spray_cliff_oriented_runner" ] 	= loadfx( "dust/sand_spray_cliff_oriented_runner" );
+
+	level._effect[ "room_smoke_200" ] 					= loadfx( "smoke/room_smoke_200" );
+	level._effect[ "room_smoke_400" ] 					= loadfx( "smoke/room_smoke_400" );
+	level._effect[ "hallway_smoke_light" ] 				= loadfx( "smoke/hallway_smoke_light" );
+
+
+-------------------------------------------------------------------------------------
+
+WASTELAND
+
+	level._effect[ "insect_trail_runner_icbm" ]						 = loadfx( "misc/insect_trail_runner_icbm" );
+	level._effect[ "leaves_fall_gentlewind" ]						 = loadfx( "misc/leaves_fall_gentlewind" );
+	level._effect[ "leaves_ground_gentlewind" ]						 = loadfx( "misc/leaves_ground_gentlewind" );
+	level._effect[ "ground_fog1200x1200_brecourt" ]					 = loadfx( "smoke/ground_fog1200x1200_brecourt" );
+	level._effect[ "fog_ground_200" ]								 = loadfx( "smoke/fog_ground_200" );
+
+
+-------------------------------------------------------------------------------------------------------
+
+KARACHI
+
+	level._effect[ "firelp_med_pm" ]					= loadfx( "fire/firelp_med_pm" );
+	level._effect[ "firelp_small_pm_a" ]				= loadfx( "fire/firelp_small_pm_a" );
+
+	level._effect[ "room_smoke_200" ]					= loadfx( "smoke/room_smoke_200" );
+	level._effect[ "room_smoke_400" ]					= loadfx( "smoke/room_smoke_400" );
+	level._effect[ "hallway_smoke_light" ]				= loadfx( "smoke/hallway_smoke_light" );
+	level._effect[ "ground_smoke_1200x1200" ]			= loadfx( "smoke/ground_smoke1200x1200" );
+
+	level._effect[ "dust_wind_fast" ]					= loadfx( "dust/dust_wind_fast_light" );
+	level._effect[ "trash_spiral_runner" ]				= loadfx( "misc/trash_spiral_runner" );
+
+
+------------------------------------------------------------------------------------------------------
+
+DERAIL
+
+	level._effect[ "snow_spray_detail_oriented_runner" ]			= loadfx( "snow/snow_spray_detail_oriented_runner" );
+	level._effect[ "snow_spray_detail_oriented_runner_large" ]		= loadfx( "snow/snow_spray_detail_oriented_large_runner" );
+	level._effect[ "snow_clouds" ]									= loadfx( "snow/snow_clouds_mp_derail" );
+	level._effect[ "room_smoke_200" ] 								= loadfx( "smoke/room_smoke_200" );
+	level._effect[ "snow_spiral_runner" ]							= loadfx( "snow/snow_spiral_runner" );
+
+------------------------------------------------------------------------------------------------
+
+
+ESTATE
+
+	level._effect[ "moth_runner" ]									 = loadfx( "misc/moth_runner" );
+	level._effect[ "insect_trail_runner_icbm" ]						 = loadfx( "misc/insect_trail_runner_icbm" );
+	level._effect[ "leaves_ground_gentlewind_dust" ]				 = loadfx( "misc/leaves_ground_gentlewind_dust" );
+	level._effect[ "leaves_fall_gentlewind" ]						 = loadfx( "misc/leaves_fall_gentlewind" );
+	level._effect[ "ground_fog1200x1200_estate" ]					 = loadfx( "smoke/ground_fog1200x1200_estate" );
+	level._effect[ "fog_ground_200" ]								 = loadfx( "smoke/fog_ground_200" );
+
+	level._effect[ "insects_carcass_runner" ]						= loadfx( "misc/insects_carcass_runner" );
+	level._effect[ "waterfall_drainage_splash" ] 					= loadfx( "water/waterfall_drainage_splash_estate" );
+	level._effect[ "waterfall_splash_large" ] 						= loadfx( "water/waterfall_splash_large_estate" );
+	level._effect[ "waterfall_splash_large_drops" ]					= loadfx( "water/waterfall_splash_large_drops_estate" );
+	level._effect[ "falling_water_trickle" ]	 					= loadfx( "water/falling_water_trickle" );
+
+	level._effect[ "hallway_smoke_light" ]							= loadfx( "smoke/hallway_smoke_light" );
+	level._effect[ "room_smoke_200" ]								= loadfx( "smoke/room_smoke_200" );
+
+
+-------------------------------------------------------------------------------------------------------
+
+FAVELA
+
+	level._effect[ "insects_carcass_runner" ]			= loadfx( "misc/insects_carcass_runner" );
+
+	level._effect[ "firelp_med_pm" ]					= loadfx( "fire/firelp_med_pm" );
+	level._effect[ "firelp_small_pm" ]				 	= loadfx( "fire/firelp_small_pm" );
+	level._effect[ "firelp_small_pm_a" ]				= loadfx( "fire/firelp_small_pm_a" );
+
+	level._effect[ "trash_spiral_runner" ]				= loadfx( "misc/trash_spiral_runner" );
+	level._effect[ "leaves_fall_gentlewind" ]		 	= loadfx( "misc/leaves_fall_gentlewind" );
+
+	level._effect[ "hallway_smoke_light" ]				= loadfx( "smoke/hallway_smoke_light" );
+	level._effect[ "room_smoke_200" ]					= loadfx( "smoke/room_smoke_200" );
+
+
+--------------------------------------------------------------------------------
+
+
+HIGHRISE
+
+	level._effect[ "ground_fog_mp_highrise_far" ]		= loadfx( "smoke/ground_fog_mp_highrise_far" );
+	level._effect[ "fog_highrise_night" ]				= loadfx( "smoke/fog_highrise_night" );
+
+	level._effect[ "hallway_smoke" ]					= loadfx( "smoke/hallway_smoke_light" );
+	level._effect[ "dust_wind_fast_light" ] 			= loadfx( "dust/dust_wind_fast_light" );
+	level._effect[ "room_smoke_200" ]					= loadfx( "smoke/room_smoke_200" );
+	level._effect[ "room_smoke_400" ]					= loadfx( "smoke/room_smoke_400" );
+
+----------------------------------------------------------------------------------------------------------
+
+INVASION
+
+	level._effect[ "firelp_med_pm" ]					 	= loadfx( "fire/firelp_med_pm_nodistort" );
+	level._effect[ "firelp_small_pm" ]				 		= loadfx( "fire/firelp_small_pm" );
+	level._effect[ "dust_wind_fast" ]					 	= loadfx( "dust/dust_wind_fast" );
+	level._effect[ "dust_wind_slow" ]					 	= loadfx( "dust/dust_wind_slow_yel_loop" );
+	level._effect[ "dust_wind_spiral" ]				 		= loadfx( "dust/dust_spiral_runner" );
+	level._effect[ "battlefield_smokebank_S" ]		 		= loadfx( "smoke/battlefield_smokebank_S" );
+	level._effect[ "hallway_smoke_light" ]		 			= loadfx( "smoke/hallway_smoke_light" );
+		
+	level._effect[ "trash_spiral_runner" ] 					= loadfx( "misc/trash_spiral_runner" );
+	level._effect[ "trash_spiral_runner_far" ] 				= loadfx( "misc/trash_spiral_runner_far" );
+	level._effect[ "room_smoke_200" ] 						= loadfx( "smoke/room_smoke_200" );
+	level._effect[ "leaves_spiral_runner" ] 				= loadfx( "misc/leaves_spiral_runner" );
+	level._effect[ "leaves_ground_gentlewind_dust" ]		= loadfx( "misc/leaves_ground_gentlewind_dust" );
+	level._effect[ "insect_trail_runner_icbm" ]				= loadfx( "misc/insect_trail_runner_icbm" );
+	level._effect[ "falling_brick_runner" ]					= loadfx( "misc/falling_brick_runner" );
+	level._effect[ "falling_brick_runner_line_400" ]		= loadfx( "misc/falling_brick_runner_line_400" );
+
+--------------------------------------------------------------------------------------------------------------
+
+SKIDROW
+
+	level._effect[ "dust_wind_fast_light" ] 			= loadfx( "dust/dust_wind_fast_light" );
+	level._effect[ "trash_spiral_runner" ] 				= loadfx( "misc/trash_spiral_runner" );
+	level._effect[ "hallway_smoke_light" ] 				= loadfx( "smoke/hallway_smoke_light" );
+	level._effect[ "battlefield_smokebank_S" ] 			= loadfx( "smoke/battlefield_smokebank_S" );
+	level._effect[ "room_smoke_200" ] 					= loadfx( "smoke/room_smoke_200" );
+	level._effect[ "room_smoke_400" ] 					= loadfx( "smoke/room_smoke_400" );
+	level._effect[ "ground_fog_mp_highrise_far" ]		= loadfx( "smoke/ground_fog_mp_highrise_far" );
+	level._effect[ "drips_fast" ]	 					= loadfx( "misc/drips_fast" );
+	level._effect[ "ground_smoke_1200x1200" ]			= loadfx( "smoke/ground_smoke1200x1200" );
+
+------------------------------------------------------------------------------------
+
+QUARRY
+
+	level._effect[ "dust_wind_fast" ]						= loadfx( "dust/dust_wind_fast" );
+	level._effect[ "dust_wind_slow" ]						= loadfx( "dust/dust_wind_slow_yel_loop" );
+	level._effect[ "dust_spiral_runner" ] 					= loadfx( "dust/dust_spiral_runner" );
+	level._effect[ "trash_spiral_runner" ] 					= loadfx( "misc/trash_spiral_runner" );
+	level._effect[ "dust_spray_detail_oriented_runner" ]	= loadfx( "dust/dust_spray_detail_oriented_runner" );
+
+	level._effect[ "light_shaft_motes_quarry" ]				= loadfx( "dust/light_shaft_motes_quarry" );
+
+	level._effect[ "room_smoke_200" ] 						= loadfx( "smoke/room_smoke_200" );
+	level._effect[ "room_smoke_400" ] 						= loadfx( "smoke/room_smoke_400" );
+	level._effect[ "hallway_smoke_light" ] 					= loadfx( "smoke/hallway_smoke_light" );
+	level._effect[ "battlefield_smokebank_S" ]				= loadfx( "smoke/battlefield_smokebank_S" );
+
+	level._effect[ "drips_slow" ]							= loadfx( "misc/drips_slow" );
+	level._effect[ "drips_fast" ]							= loadfx( "misc/drips_fast" );
+
+
+---------------------------------------------------------------------------------------------------------------
+
+RUNDOWN
+
+
+	level._effect[ "firelp_small_pm_a_nolight" ] 		= loadfx( "fire/firelp_small_pm_a_nolight" );
+
+	level._effect[ "trash_spiral_runner" ] 				= loadfx( "misc/trash_spiral_runner" );
+
+	level._effect[ "fog_ground_200_rundown" ] 			= loadfx( "smoke/fog_ground_200_rundown" );
+	level._effect[ "fog_ground_200_heavy_rundown" ] 	= loadfx( "smoke/fog_ground_200_heavy_rundown" );
+	level._effect[ "fog_ground_400_rundown" ] 			= loadfx( "smoke/fog_ground_400_rundown" );
+	level._effect[ "fog_ground_500_far_rundown" ] 		= loadfx( "smoke/fog_ground_500_far_rundown" );
+
+	level._effect[ "moth_runner" ] 						= loadfx( "misc/moth_runner" );
+	level._effect[ "insects_carcass_runner" ] 			= loadfx( "misc/insects_carcass_runner" );
+	level._effect[ "insect_trail_runner_icbm" ] 		= loadfx( "misc/insect_trail_runner_icbm" );
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+RUST
+
+	level._effect[ "sand_storm_light" ]						= loadfx( "weather/sand_storm_mp_rust" );
+	level._effect[ "sand_spray_detail_runner0x400" ]	 	= loadfx( "dust/sand_spray_detail_runner_0x400" );
+	level._effect[ "sand_spray_detail_runner400x400" ]	 	= loadfx( "dust/sand_spray_detail_runner_400x400" );
+	level._effect[ "sand_spray_detail_oriented_runner" ]	= loadfx( "dust/sand_spray_detail_oriented_runner" );
+	level._effect[ "sand_spray_cliff_oriented_runner" ] 	= loadfx( "dust/sand_spray_cliff_oriented_runner" );
+
+
+----------------------------------------------------------------------------------------------------------
+
+SUB BASE
+
+
+	level._effect[ "snow_light" ]		 = loadfx( "snow/snow_light_mp_subbase" );
+	level._effect[ "snow_wind" ]		 = loadfx( "snow/snow_wind" );
+
+
+------------------------------------------------------------------------------------------------------------------
+
+TERMINAL
+
+	level._effect[ "ground_smoke_1200x1200" ]		= loadfx( "smoke/ground_smoke1200x1200" );
+	level._effect[ "hallway_smoke_light" ]			= loadfx( "smoke/hallway_smoke_light" );
+	level._effect[ "room_smoke_200" ]				= loadfx( "smoke/room_smoke_200" );
+	level._effect[ "room_smoke_400" ]				= loadfx( "smoke/room_smoke_400" );
+	level._effect[ "light_shaft_motes_airport" ]	= loadfx( "dust/light_shaft_motes_airport" );
+
+-------------------------------------------------------------------------------------------------------------
+
+UNDERPASS
+
+	level._effect[ "rain_mp_underpass" ]					= loadfx( "weather/rain_mp_underpass" );
+	level._effect[ "rain_noise_splashes" ]					= loadfx( "weather/rain_noise_splashes" );
+	level._effect[ "rain_splash_lite_64x64" ]				= loadfx( "weather/rain_splash_lite_64x64" );
+	level._effect[ "rain_splash_lite_128x128" ]				= loadfx( "weather/rain_splash_lite_128x128" );
+	level._effect[ "river_splash_small" ]					= loadfx( "water/river_splash_small" );
+	level._effect[ "drips_fast" ]							= loadfx( "misc/drips_fast" );
+	level._effect[ "lightning" ]							= loadfx( "weather/lightning_mp_underpass" );
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+CARNIVAL
+
+	level._effect[ "firelp_large_pm" ]								= loadfx( "fire/firelp_large_pm" );
+	level._effect[ "firelp_med_pm" ]								= loadfx( "fire/firelp_med_pm" );
+	level._effect[ "firelp_small_pm" ]								= loadfx( "fire/firelp_small_pm" );
+
+	level._effect[ "traffic" ]										= loadfx( "props/traffic_mp_abandon" );
+
+	level._effect[ "moth_runner" ]									= loadfx( "misc/moth_runner" );
+	level._effect[ "insect_trail_runner_icbm" ]						= loadfx( "misc/insect_trail_runner_icbm" );
+	level._effect[ "insects_carcass_runner" ]						= loadfx( "misc/insects_carcass_runner" );
+
+	level._effect[ "leaves_fall_gentlewind" ]						= loadfx( "misc/leaves_fall_gentlewind" );
+	level._effect[ "leaves_ground_gentlewind" ]						= loadfx( "misc/leaves_ground_gentlewind" );
+	level._effect[ "ground_fog_1200_abandon" ]						= loadfx( "smoke/ground_fog_1200_abandon" );
+	level._effect[ "ground_fog_600_abandon" ]						= loadfx( "smoke/ground_fog_600_abandon" );
+	level._effect[ "ground_fog_300_abandon" ]						= loadfx( "smoke/ground_fog_300_abandon" );
+	level._effect[ "fog_ground_200" ]								= loadfx( "smoke/fog_ground_200" );
+	level._effect[ "trash_spiral_runner" ]							= loadfx( "misc/trash_spiral_runner" );
+
+	level._effect[ "hallway_smoke_light" ]							= loadfx( "smoke/hallway_smoke_light" );
+	level._effect[ "room_smoke_200" ]								= loadfx( "smoke/room_smoke_200" );
+
+-------------------------------------------------------------------------------------------------------------------------
+
+SALVAGE
+
+	level._effect[ "firelp_large_pm" ]							= loadfx( "fire/firelp_large_pm" );
+	level._effect[ "firelp_med_pm" ]							= loadfx( "fire/firelp_med_pm" );
+	level._effect[ "firelp_small_pm" ]							= loadfx( "fire/firelp_small_pm" );
+
+	level._effect[ "snow_spray_detail_oriented_runner" ]		= loadfx( "snow/snow_spray_detail_oriented_runner" );
+	level._effect[ "snow_spiral_runner" ]						= loadfx( "snow/snow_spiral_runner" );
+	level._effect[ "room_smoke_200" ] 							= loadfx( "smoke/room_smoke_200" );
+
+	level._effect[ "falling_junk_ring_runner" ] 				= loadfx( "misc/falling_junk_ring_runner" );
+
+
+----------------------------------------------------------------------------------------------
+
+BAILOUT
+
+	level._effect[ "battlefield_smokebank_S_warm" ] 			= loadfx( "smoke/battlefield_smokebank_S_warm" );
+	level._effect[ "battlefield_smokebank_S_warm_thick" ] 		= loadfx( "smoke/battlefield_smokebank_S_warm_thick" );
+
+	level._effect[ "firelp_large_pm" ]							= loadfx( "fire/firelp_large_pm" );
+	level._effect[ "firelp_large_pm_far" ] 						= loadfx( "fire/firelp_large_pm_far" );
+	level._effect[ "firelp_small_pm_complex" ]					= loadfx( "fire/firelp_small_pm_complex" );
+	level._effect[ "fire_falling_runner_point_infrequent_mp" ] 	= loadfx( "fire/fire_falling_runner_point_infrequent_mp" );
+
+	level._effect[ "insect_trail_runner_icbm" ] 				= loadfx( "misc/insect_trail_runner_icbm" );
+	level._effect[ "insects_carcass_runner" ] 					= loadfx( "misc/insects_carcass_runner" );
+	level._effect[ "insects_light_invasion" ] 					= loadfx( "misc/insects_light_complex" );
+
+	level._effect[ "leaves_fall_gentlewind" ] 					= loadfx( "misc/leaves_fall_gentlewind" );
+	level._effect[ "leaves_ground_gentlewind" ] 				= loadfx( "misc/leaves_ground_gentlewind" );
+	level._effect[ "leaves_spiral_runner" ] 					= loadfx( "misc/leaves_spiral_runner" );
+
+	level._effect[ "powerline_runner_cheap_complex" ] 			= loadfx( "explosions/powerline_runner_cheap_complex" );
+
+	level._effect[ "room_smoke_200" ] 							= loadfx( "smoke/room_smoke_200" );
+	level._effect[ "smoke_plume02" ] 							= loadfx( "smoke/smoke_plume02" );
+
+	level._effect[ "trash_spiral_runner" ] 						= loadfx( "misc/trash_spiral_runner" );
+
+------------------------------------------------------------------------------------------------------------
+
+
+CRASH
+
+	level._effect[ "firelp_med_pm" ]				 = loadfx( "fire/firelp_med_pm_nodistort" );
+	level._effect[ "firelp_small_pm" ]				 = loadfx( "fire/firelp_small_pm" );
+	level._effect[ "firelp_small_pm_a" ]			 = loadfx( "fire/firelp_small_pm_a" );
+	level._effect[ "dust_wind_fast" ]				 = loadfx( "dust/dust_wind_fast_paper" );
+	level._effect[ "dust_wind_slow" ]				 = loadfx( "dust/dust_wind_slow_paper" );
+	level._effect[ "dust_wind_spiral" ]				 = loadfx( "misc/trash_spiral_runner" );
+	level._effect[ "battlefield_smokebank_S" ]		 = loadfx( "smoke/battlefield_smokebank_S" );
+	level._effect[ "hallway_smoke_light" ]			 = loadfx( "smoke/hallway_smoke_light" );
+
+---------------------------------------------------------------------------------------------------------------
+
+
+FUEL
+
+	level._effect[ "room_smoke_200" ] 						= loadfx( "smoke/room_smoke_200" );
+	level._effect[ "oil_rig_fire_fuel" ]					= loadfx( "fire/oil_rig_fire_fuel" );
+	level._effect[ "sand_spray_detail_oriented_runner" ]	= loadfx( "dust/sand_spray_detail_oriented_runner_fuel" );
+	level._effect[ "sand_spray_cliff_oriented_runner" ] 	= loadfx( "dust/sand_spray_cliff_oriented_runner" );
+	
+	level._effect[ "insects_carcass_runner" ]				= loadfx( "misc/insects_carcass_runner" );
+
+	level._effect[ "firelp_med_pm" ]						= loadfx( "fire/firelp_med_pm" );
+	level._effect[ "firelp_small_pm_a" ]					= loadfx( "fire/firelp_small_pm_a" );
+
+	level._effect[ "trash_spiral_runner" ]					= loadfx( "misc/trash_spiral_runner" );
+	level._effect[ "leaves_fall_gentlewind" ]		 		= loadfx( "misc/leaves_fall_gentlewind" );
+
+	level._effect[ "hallway_smoke_light" ]					= loadfx( "smoke/hallway_smoke_light" );
+	
+	
+	
+	level._effect[ "dust_wind_fast_fuel" ]				 	= loadfx( "dust/dust_wind_fast_fuel" );
+	
+	level._effect[ "insect_trail_runner_icbm" ] 			= loadfx( "misc/insect_trail_runner_icbm" );
+
+----------------------------------------------------------------------------------------------------------------
+
+OVERGROWN
+
+	level._effect[ "thin_black_smoke_M" ]		 	= loadfx( "smoke/thin_black_smoke_M" );
+	level._effect[ "thin_black_smoke_L" ]		 	= loadfx( "smoke/thin_black_smoke_L" );
+	level._effect[ "battlefield_smokebank_S" ]	 	= loadfx( "smoke/battlefield_smokebank_S" );
+	level._effect[ "firelp_small_pm" ]			 	= loadfx( "fire/firelp_small_pm" );
+	level._effect[ "firelp_small_pm_a" ]		 	= loadfx( "fire/firelp_small_pm_a" );
+	level._effect[ "firelp_med_pm" ]			 	= loadfx( "fire/firelp_med_pm_nodistort" );
+	level._effect[ "leaves_ground_gentlewind" ]	 	= loadfx( "misc/leaves_ground_gentlewind" );	
+	level._effect[ "leaves_fall_gentlewind" ]	 	= loadfx( "misc/leaves_fall_gentlewind" );
+ 	level._effect[ "insects_carcass_runner" ]	 	= loadfx( "misc/insects_carcass_runner" );
+	level._effect[ "fog_daytime" ]					 = loadfx( "weather/fog_daytime" );
+	level._effect[ "mp_overgrown_insects01" ]	 	= loadfx( "ambient_runners/mp_overgrown_insects01" );
+	level._effect[ "mp_overgrown_insects02" ]	 	= loadfx( "ambient_runners/mp_overgrown_insects02" );
+	level._effect[ "mp_overgrown_insects03" ]	 	= loadfx( "ambient_runners/mp_overgrown_insects03" );
+	level._effect[ "mp_overgrown_insects04" ]	 	= loadfx( "ambient_runners/mp_overgrown_insects04" );
+	level._effect[ "mp_overgrown_insects05" ]	 	= loadfx( "ambient_runners/mp_overgrown_insects05" );
+	level._effect[ "mp_overgrown_fog_daytime01" ]	= loadfx( "ambient_runners/mp_overgrown_fog_daytime01" );
+	level._effect[ "mp_overgrown_leavesfall01" ]	= loadfx( "ambient_runners/mp_overgrown_leavesfall01" );
+	level._effect[ "mp_overgrown_leavesground01" ]	= loadfx( "ambient_runners/mp_overgrown_leavesground01" );
+
+
+---------------------------------------------------------------------------------------------------------------
+
+
+STORM
+
+	level._effect[ "rain_mp_storm" ]						= loadfx( "weather/rain_mp_storm" );
+	level._effect[ "rain_noise_splashes" ]					= loadfx( "weather/rain_noise_splashes" );
+	level._effect[ "rain_splash_lite_64x64" ]				= loadfx( "weather/rain_splash_lite_64x64" );
+	level._effect[ "rain_splash_lite_128x128" ]				= loadfx( "weather/rain_splash_lite_128x128" );
+	level._effect[ "river_splash_small" ]					= loadfx( "water/river_splash_small" );
+	level._effect[ "drips_fast" ]							= loadfx( "misc/drips_fast" );
+	level._effect[ "lightning" ]							= loadfx( "weather/lightning_mp_storm" );
+	level._effect[ "smoke_plume_white_01" ] 				= loadfx( "smoke/smoke_plume_white_01" );
+	level._effect[ "smoke_plume_white_02" ] 				= loadfx( "smoke/smoke_plume_white_02" );
+	level._effect[ "waterfall_drainage_mp" ] 				= loadfx( "water/waterfall_drainage_mp" );
+	level._effect[ "waterfall_drainage_mp_small" ] 			= loadfx( "water/waterfall_drainage_mp_small" );
+	level._effect[ "waterfall_drainage_splash_mp" ] 		= loadfx( "water/waterfall_drainage_splash_mp" );
+
+----------------------------------------------------------------------------------------------------------------
+
+
+STRIKE
+
+
+	level._effect["firelp_med_pm"]					= loadfx ("fire/firelp_med_pm_nodistort");	
+	level._effect["firelp_small_pm"]				= loadfx ("fire/firelp_small_pm");
+	level._effect["firelp_small_pm_a"]				= loadfx ("fire/firelp_small_pm_a");
+	level._effect["dust_wind_fast"]					= loadfx ("dust/dust_wind_fast_paper");
+	level._effect["dust_wind_slow"]					= loadfx ("dust/dust_wind_slow_paper");
+	level._effect["dust_wind_spiral"]				= loadfx ("misc/trash_spiral_runner");
+	level._effect["battlefield_smokebank_S"]		= loadfx ("smoke/battlefield_smokebank_S");
+	level._effect["hallway_smoke_light"]			= loadfx ("smoke/hallway_smoke_light");
+	level._effect["paper_falling"]					= loadfx( "misc/paper_falling_dlc" );
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+TRAILERPARK
+
+	level._effect[ "firelp_large_pm" ]								= loadfx( "fire/firelp_large_pm" );
+	level._effect[ "firelp_med_pm" ]								= loadfx( "fire/firelp_med_pm" );
+	level._effect[ "firelp_small_pm" ]								= loadfx( "fire/firelp_small_pm" );
+
+	level._effect[ "moth_runner" ]									= loadfx( "misc/moth_runner" );
+	level._effect[ "insect_trail_runner_icbm" ]						= loadfx( "misc/insect_trail_runner_icbm" );
+	level._effect[ "insects_carcass_runner" ]						= loadfx( "misc/insects_carcass_runner" );
+
+	level._effect[ "leaves_fall_gentlewind" ]						= loadfx( "misc/leaves_fall_gentlewind" );
+	level._effect[ "leaves_ground_gentlewind" ]						= loadfx( "misc/leaves_ground_gentlewind" );
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+VACANT
+
+	level._effect[ "hallway_smoke" ]							= loadfx( "smoke/hallway_smoke_light" );
+	level._effect[ "light_shaft_dust_large" ]					= loadfx( "dust/light_shaft_dust_large" );	
+	level._effect[ "room_dust_200" ]							= loadfx( "dust/room_dust_200_blend" );	
+	level._effect[ "room_dust_100" ]							= loadfx( "dust/room_dust_100_blend" );	
+	level._effect[ "battlefield_smokebank_S" ]					= loadfx( "smoke/battlefield_smokebank_S" );
+	level._effect[ "dust_ceiling_ash_large" ]					= loadfx( "dust/dust_ceiling_ash_large" );
+	level._effect[ "ash_spiral_runner" ]			 			= loadfx( "dust/ash_spiral_runner" );
+	level._effect[ "dust_wind_fast_paper" ]						= loadfx( "dust/dust_wind_fast_paper" );
+	level._effect[ "dust_wind_slow_paper" ]						= loadfx( "dust/dust_wind_slow_paper" );
+	level._effect[ "trash_spiral_runner" ]						= loadfx( "misc/trash_spiral_runner" );
+	level._effect[ "leaves_spiral_runner" ]						= loadfx( "misc/leaves_spiral_runner" );
+	level._effect[ "dust_ceiling_ash_large_mp_vacant" ]			= loadfx( "dust/dust_ceiling_ash_large_mp_vacant" );
+	level._effect[ "room_dust_200_mp_vacant" ]					= loadfx( "dust/room_dust_200_blend_mp_vacant" );	
+	level._effect[ "light_shaft_dust_large_mp_vacant" ]			= loadfx( "dust/light_shaft_dust_large_mp_vacant" );	
+	level._effect[ "light_shaft_dust_large_mp_vacant_sidewall" ] = loadfx( "dust/light_shaft_dust_large_mp_vacant_sidewall" );	
+
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////KILLSTREAKS/////////////////////////////////////////////////////////////////////
+--------------------------------------------------------------------------------------------------------------------
+
+NUKE AND EMP FX
+
+
+	level._effect[ "nuke_player" ] = loadfx( "explosions/player_death_nuke" );
+	level._effect[ "nuke_flash" ] = loadfx( "explosions/player_death_nuke_flash" );
+	level._effect[ "nuke_aftermath" ] = loadfx( "dust/nuke_aftermath_mp" );
+	level._effect[ "emp_flash" ] = loadfx( "explosions/emp_flash_mp" );
+
+
+--------------------------------------------------------------------------------
+
+
+TANK
+
+
+	level.tankFire = loadfx( "explosions/large_vehicle_explosion" );
+	level.tankCover = loadfx( "props/american_smoke_grenade_mp" );
+
+
+--------------------------------------------------------------------------------
+
+
+HELICOPTERS
+
+
+	level.chopper_fx["explode"]["large"] = loadfx ("explosions/helicopter_explosion_secondary_small");
+	level.chopper_fx["explode"]["medium"] = loadfx ("explosions/aerial_explosion");
+	level.chopper_fx["smoke"]["trail"] = loadfx ("smoke/smoke_trail_white_heli");
+	level.chopper_fx["fire"]["trail"]["medium"] = loadfx ("fire/fire_smoke_trail_L_emitter");
+	level.chopper_fx["fire"]["trail"]["large"] = loadfx ("fire/fire_smoke_trail_L");
+
+	level.chopper_fx["damage"]["light_smoke"] = loadfx ("smoke/smoke_trail_white_heli_emitter");
+	level.chopper_fx["damage"]["heavy_smoke"] = loadfx ("smoke/smoke_trail_black_heli_emitter");
+	level.chopper_fx["damage"]["on_fire"] = loadfx ("fire/fire_smoke_trail_L_emitter");
+
+	level.chopper_fx["light"]["left"] = loadfx( "misc/aircraft_light_wingtip_green" );
+	level.chopper_fx["light"]["right"] = loadfx( "misc/aircraft_light_wingtip_red" );
+	level.chopper_fx["light"]["belly"] = loadfx( "misc/aircraft_light_red_blink" );
+	level.chopper_fx["light"]["tail"] = loadfx( "misc/aircraft_light_white_blink" );
+
+	level.fx_heli_dust = loadfx ("treadfx/heli_dust_default");
+	level.fx_heli_water = loadfx ("treadfx/heli_water");
+
+--------------------------------------------------------------------------
+
+AIRSTRIKE
+
+
+	level.onfirefx = loadfx ("fire/fire_smoke_trail_L");
+	level.airstrikefx = loadfx ("explosions/clusterbomb");
+	level.mortareffect = loadfx ("explosions/artilleryExp_dirt_brown");
+	level.bombstrike = loadfx ("explosions/wall_explosion_pm_a");
+	level.stealthbombfx = loadfx ("explosions/stealth_bomb_mp");
+
+	level.harrier_smoke = loadfx("fire/jet_afterburner_harrier_damaged");
+	level.harrier_deathfx = loadfx ("explosions/aerial_explosion_harrier");
+	level.harrier_afterburnerfx = loadfx ("fire/jet_afterburner_harrier");
+	level.fx_airstrike_afterburner = loadfx ("fire/jet_afterburner");
+	level.fx_airstrike_contrail = loadfx ("smoke/jet_contrail");
+
+---------------------------------------------------------------------------------
+
+AC130
+
+
+	level._effect[ "cloud" ] 					= loadfx( "misc/ac130_cloud" );
+	level._effect[ "beacon" ] 					= loadfx( "misc/ir_beacon_coop" );
+	level._effect[ "ac130_explode" ] 			= loadfx( "explosions/aerial_explosion_ac130_coop" );
+	level._effect[ "ac130_flare" ] 				= loadfx( "misc/flares_cobra" );
+	level._effect[ "ac130_light_red" ] 			= loadfx( "misc/aircraft_light_wingtip_red" );
+	level._effect[ "ac130_light_white_blink" ] 	= loadfx( "misc/aircraft_light_white_blink" );
+	level._effect[ "ac130_light_red_blink" ]	= loadfx( "misc/aircraft_light_red_blink" );
+	level._effect[ "ac130_engineeffect" ]		= loadfx( "fire/jet_engine_ac130" );
+	level._effect[ "coop_muzzleflash_105mm" ] = loadfx( "muzzleflashes/ac130_105mm" );
+	level._effect[ "coop_muzzleflash_40mm" ] = loadfx( "muzzleflashes/ac130_40mm" );
+
+
+-----------------------------------------------------------------------------------------------

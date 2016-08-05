@@ -1,0 +1,135 @@
+#include "ui/menudef.h"
+
+#define BINDS 9
+#define Y_RECT ( 110 + ( 20 * BINDS ) )
+
+
+{
+	menuDef
+	{
+		name "quickbindings"
+		rect -136 50 272 Y_RECT 2 1
+		popup
+		style 1
+		forecolor 1 1 1 1
+		backcolor 0.1 0.1 0.1 1
+		background "white"
+		focuscolor 1 1 1 1
+		fadeCycle 1
+		fadeClamp 1
+		fadeAmount 0.1
+		allowedBinding "+talk"
+		execKey "BUTTON_START"
+		{
+			close self;
+		}
+		onOpen
+		{
+		
+		
+		}
+		onEsc
+		{
+		
+			close self;
+			
+		}
+		itemDef
+		{
+			rect 0 0 272 15 2 1
+			style 3
+			decoration
+			visible 1
+			forecolor .2 .2 .2 1
+			background "white"
+			textscale 0.55
+		}
+		itemDef
+		{
+			rect 0 (Y_RECT - 15) 272 15 2 1
+			style 3
+			decoration
+			visible 1
+			forecolor .2 .2 .2 1
+			background "white"
+			textscale 0.55
+		}
+		itemDef
+		{
+			rect 0 15 272 10 2 1
+			decoration
+			visible 1
+			style 3
+			forecolor 0 0 0 1
+			background "drop_shadow_b"
+			textscale 0.55
+		}	
+		itemDef
+		{
+			rect 0 (Y_RECT - 30) 272 -15 2 1
+			decoration
+			visible 1
+			style 3
+			forecolor 0 0 0 1
+			background "drop_shadow_b"
+			textscale 0.55
+		}
+		itemDef
+		{
+			rect 0 0 272 15 2 1
+			decoration
+			visible 1
+			forecolor 1 1 1 1
+			backcolor 1 1 1 1
+			textfont 9
+			textalign 9
+			textStyle 3
+			textscale 0.333
+			text "quickbindings overview"
+		}
+		itemDef
+		{
+			rect 0 15 272 15 2 1
+			decoration
+			visible 1
+			forecolor 1 1 1 1
+			backcolor 1 1 1 1
+			textfont 0
+			textalign 9
+			textalignx 0
+			textStyle 3
+			textscale 0.2
+			text "^1Existing Binds will be overwritten!"
+		}
+		
+		#include "ui_mp/quickbindings.inc"
+		
+		itemDef
+		{
+			rect 0 (Y_RECT - 15) 176 15 2 1
+			decoration
+			visible 1
+			forecolor 1 1 1 1
+			backcolor 1 1 1 1
+			textfont 0
+			textalign 8
+			textalignx 5
+			textStyle 3
+			textscale 0.25
+			text "Back - ^3ESC"
+		}
+		itemDef
+		{
+			name "keyBindStatus"
+			rect 10 (Y_RECT - 20) 252 10 2 1
+			decoration
+			autowrapped
+			style 1
+			ownerdraw 250
+			forecolor 0.65 0.65 0.65 1
+			type 8
+			textalign 1
+			textscale 0.25
+		}
+	}
+}
